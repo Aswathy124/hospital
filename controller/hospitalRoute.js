@@ -19,6 +19,7 @@ router.post("/add",async(req,res)=>{
         let data=await hospitalmodel.find()
         res.send(data)
     })
+    
      
 
 
